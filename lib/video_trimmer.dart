@@ -1,4 +1,4 @@
-library video_trimmer;
+library;
 
 export 'package:video_trimmer/src/trimmer.dart';
 export 'package:video_trimmer/src/video_viewer.dart';
