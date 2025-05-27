@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:example/preview.dart';
+import 'package:example/preview.dart' as exampe_preview;
 import 'package:flutter/material.dart';
 import 'package:video_trimmer/video_trimmer.dart';
 
@@ -46,7 +46,7 @@ class _TrimmerViewState extends State<TrimmerView> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (_) => Preview(outputPath),
+            builder: (_) => exampe_preview.Preview(outputPath),
           ),
         );
       },
