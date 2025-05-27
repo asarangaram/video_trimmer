@@ -85,3 +85,5 @@ example/android/app/.cxx/
 
 example/ios/Flutter/.last_build_id
 .fvm/
+example/ios/Flutter/ephemeral/flutter_lldb_helper.py
+example/ios/Flutter/ephemeral/flutter_lldbinit
